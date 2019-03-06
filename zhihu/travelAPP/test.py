@@ -1,0 +1,8 @@
+import requests
+headers = {
+    'cookie': '_zap=977e2d5c-3d80-4bd4-a3e0-29c6d786c9aa; d_c0="AHAoAhMZXw6PTrKkXAJWZ0IMwK1PwPeAlg8=|1539680083"; q_c1=c513ca45f5614395a3404f77ac6ba33c|1539693362000|1539693362000; _xsrf=hJY9XfxgWDel9ytT8vFH0UCp8S0QJDjV; l_cap_id="YWVlMTgxODgxMzg4NGUzYjg0ZGRjNTQyNjljZDBmZGQ=|1541222719|576440cafb026535e4c348c83c09e6888cc215ae"; r_cap_id="ZWY2ZTEwYWVjNjkyNGVhNDljNTg2ODk4MzA3Zjk4YTE=|1541222719|34f5c57b6e422925eae831e1a7b1dc9880c4b450"; cap_id="MjZiZTcwYjk2ODliNDJhMzkwYTEwMzFjOGYwOTQyZDA=|1541222719|bad9dda88b123b570d16be7432bceaa2ce219e34"; capsion_ticket="2|1:0|10:1541223079|14:capsion_ticket|44:MTU0ODgwMWIyYjIxNDEwMGFlNmI5NWYwMzhjMDU5ZmE=|5aab3da7f4d182d65d9001d19dac98fcdf736121fa96fe7a73b51e15e1eb09bb"; z_c0="2|1:0|10:1541223113|4:z_c0|92:Mi4xM0U1VEJ3QUFBQUFBY0NnQ0V4bGZEaWNBQUFDRUFsVk55YjhFWEFEUnY1WkRZSnNRcERENDVBNUw0cXBhS1l3clp3|51aa7d35c1768d12cb4aba743b48d71f0a392f163dd43ffe37af04066e455aa2"; tst=r; __gads=ID=6ba2edd370f20908:T=1541511382:S=ALNI_Mbp6Jpwr0BncARDB7WJleXd-IIaGw; __utma=51854390.1982599758.1541514236.1541514236.1541514236.1; __utmz=51854390.1541514236.1.1.utmcsr=zhihu.com|utmccn=(referral)|utmcmd=referral|utmcct=/topic/19554128/hot; __utmv=51854390.100-1|2=registration_date=20180114=1^3=entry_date=20180114=1; tgw_l7_route=ec452307db92a7f0fdb158e41da8e5d8',
+    'referer': 'https://www.zhihu.com/',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36'
+}
+response = requests.get(url='https://www.zhihu.com/', headers=headers)
+print(response.text)
